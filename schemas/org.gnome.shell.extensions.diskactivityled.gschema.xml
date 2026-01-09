@@ -13,7 +13,7 @@
       </key>
       <key name="font-size" type="d">
         <range min="0.5" max="3.0" />
-        <default>0.9</default>
+        <default>0.7</default>
       </key>
       <key name="led-threshold" type="i">
         <range min="100" max="100000" />
