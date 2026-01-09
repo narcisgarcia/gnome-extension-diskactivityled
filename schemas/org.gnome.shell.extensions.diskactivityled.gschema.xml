@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="diskactivityled@karthickk.gitlab.com">
+  <schema path="/org/gnome/shell/extensions/diskactivityled/" id="org.gnome.shell.extensions.diskactivityled">
+      <key name="mode" type="i">
+        <range min="0" max="10" />
+        <default>0</default>
+      </key>
+      <key name="read-color" type="s">
+        <default>'rgb(53,255,3)'</default>
+      </key>
+      <key name="write-color" type="s">
+        <default>'rgb(237,51,59)'</default>
+      </key>
+      <key name="font-size" type="d">
+        <range min="0.5" max="3.0" />
+        <default>0.9</default>
+      </key>
+      <key name="led-threshold" type="i">
+        <range min="100" max="100000" />
+        <default>5000</default>
+      </key>
+  </schema>
+</schemalist>

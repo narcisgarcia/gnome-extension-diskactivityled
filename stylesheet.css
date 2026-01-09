@@ -1,18 +1,40 @@
-.harddiskled-label {
+.diskactivityled-label {
     font-size: 1em;
     min-width: 4em;
     text-align: right;
 }
 
-.harddiskled-icon {
-    font-size: 1em;
-    min-width: 1.2em;
-    text-align: center;
-    color: lime;
+.diskactivityled-speed-container {
+    gap: 0px;
+    margin-left: 2px;
 }
 
-.harddiskled-container {
-    spacing: 0px;
+.diskactivityled-speed-label {
+    font-size: 0.75em;
+    min-width: 4em;
+    text-align: right;
+    line-height: 1;
+    padding: 0px;
+    margin: 0px;
+}
+
+.diskactivityled-rect {
+    width: 12px;
+    height: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 0px;
+    margin: 1px;
+    vertical-align: bottom;
+}
+
+.diskactivityled-leds {
+    margin-left: 2px;
+    margin-right: 2px;
+    vertical-align: bottom;
+}
+
+.diskactivityled-container {
+    gap: 0px;
     margin-left: 2px;
     margin-right: 2px;
 }
